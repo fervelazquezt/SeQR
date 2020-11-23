@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvItemDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="24/07"
+                android:gravity="right|bottom"
+                android:textSize="30sp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tvItemYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2020"
+                android:gravity="right|top"
+                android:textSize="20sp"
+                android:textColor="@color/colorAccent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:layout_marginLeft="16dp">
+            <TextView
+                android:id="@+id/tvItemArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ala Norte"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:ellipsize="end"
+                android:lines="1"
+                android:gravity="center_vertical"/>
+            <TextView
+                android:id="@+id/tvItemUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Luis Manuel Guerrero Alanís"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:ellipsize="end"
+                android:lines="1"/>
+
+            <TextView
+                android:id="@+id/tvItemCheckIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13:39 PM"
+                android:ellipsize="end"
+                android:lines="1"
+                android:textColor="#FFF"
+                android:background="@drawable/shape_rounded_buttons_dark"
+                android:layout_marginTop="8dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"/>
+
+</LinearLayout>

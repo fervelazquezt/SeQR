@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecoverPassActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitleSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="56dp"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/recovery_pass_title"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="50dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/etRecoverPassowordEmail"
+            style="@style/LoginTextInputStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:hint="@string/email_control"
+            app:errorEnabled="true"
+            app:helperTextEnabled="true"
+            app:helperText="@string/recovery_email_code_message"
+            android:layout_marginHorizontal="50dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginHorizontal="50dp">
+
+            <Button
+                android:id="@+id/btnCancelRecovery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_rounded_buttons"
+                android:text="@string/cancel_btn"
+                android:paddingVertical="10dp"
+                style="@style/Widget.MaterialComponents.Button"
+                android:textAllCaps="false"
+                android:layout_gravity="center_horizontal"
+                app:layout_constraintTop_toBottomOf="parent"
+                app:layout_constraintBottom_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <Button
+                android:id="@+id/btnSendRecovery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_rounded_buttons"
+                android:text="@string/send_text"
+                android:paddingVertical="10dp"
+                style="@style/Widget.MaterialComponents.Button"
+                android:textAllCaps="false"
+                android:layout_gravity="center_horizontal"
+                app:layout_constraintTop_toBottomOf="parent"
+                app:layout_constraintBottom_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlLoadingRecoveryPassword"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:alpha="0.3"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "68933362351",
+    "firebase_url": "https://seqr-a1f09.firebaseio.com",
+    "project_id": "seqr-a1f09",
+    "storage_bucket": "seqr-a1f09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68933362351:android:999c94fc85dac6ff5daa5a",
+        "android_client_info": {
+          "package_name": "com.equipo6.seqr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68933362351-4k2eojsvu03kf0mb6k2bgjug5vj65ujf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.equipo6.seqr",
+            "certificate_hash": "1eac54f9a4e77230980ea196e18dfdab8ee9d014"
+          }
+        },
+        {
+          "client_id": "68933362351-3afsf93lfpgb6um5jig3ip97vlcf4ahk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8JlGLpF0nthKlCarNqc71ZQxsiRGE4LQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68933362351-3afsf93lfpgb6um5jig3ip97vlcf4ahk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

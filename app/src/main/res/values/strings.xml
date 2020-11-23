@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SeQR</string>
+
+    <!--Control text field strings-->
+    <string name="name_control">Nombre</string>
+    <string name="email_control">Email</string>
+    <string name="phone_control">Telefono</string>
+    <string name="pass_control">Contraseña</string>
+    <string name="pass_question">¿Olvidaste tu contraseña?</string>
+    <string name="login_button">Ingresar</string>
+    <string name="signup_button">Registrarse</string>
+    <string name="user_img_description">Imagen de usuario</string>
+    <string name="cancel_btn">Cancelar</string>
+    <string name="recovery_pass_title">Recuperar contraseña</string>
+    <string name="recovery_email_code_message">Le enviaremos un codigo de recuperacion. Revise su bandeja de correo no deseado.</string>
+    <string name="send_text">Enviar</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_history">Historial</string>
+    <string name="nav_tour">Recorrido</string>
+    <string name="logout_text">logout</string>
+    <string name="code_control">Codigo de area</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error">Obligatorio</string>
+
+</resources>
